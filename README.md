@@ -1,7 +1,7 @@
 * dependencies - 
   *   npm - installed globally
   *   grunt cli - installed globally - npm install -g grunt-cli
-  *   yoman - npm install -g yo, npm install -g generator-webapp, npm install -g generator-angular
+  *   yeoman - npm install -g yo, npm install -g generator-webapp, npm install -g generator-angular
 
 * review package.json
 
@@ -9,7 +9,7 @@
 
 * review Gruntfile.js
 
-* take a quick look at index.html
+* take a quick look at index.html (for an angular project scaffolded with yeoman, this won't be used)
 
 from the root folder (the place where the package.json is), run the following;
 * npm install (this sets up both the package and bower stuff)
@@ -20,7 +20,7 @@ from the root folder (the place where the package.json is), run the following;
 * yo angular:filter myFilter
 * yo angular:service myService
 
-* update the index file for the bower dependencies
+* update the index file for the bower dependencies (not required if you let yeoman create the angular project)
 * grunt bowerInstall
 * ..make sure your index file is updated with the following;
 * ' <!-- bower:css -->  '
