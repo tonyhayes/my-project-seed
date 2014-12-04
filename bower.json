@@ -24,6 +24,7 @@
         "sockjs-client": "0.3.4",
         "stomp-websocket": "2.3.1",
         "toastr": "~2.1.0",
-        "fontawesome": "~4.2.0"
+        "fontawesome": "~4.2.0",
+        "bower-requirejs": "~1.1.2"
     }
 }
